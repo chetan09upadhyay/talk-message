@@ -13,6 +13,7 @@ const port = process.env.PORT || 5000;
 app.use(cors(
      
       origin: "https://chatoo.onrender.com",
+      methods: ["POST","GET"],
       credentials: true,
     }",
       credentials: true,
